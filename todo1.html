@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjE4YmF0Y2g5LW15bnQtNjMuanBn.jpg");
+            background-size: cover;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 300px;
+            background: url("https://cdn.create.vista.com/api/media/small/51165315/stock-photo-opened-personal-organizer-with-a-to-do-list");
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .task {
+            display: flex;
+            justify-content: space-between;
+        }
+        .task label {
+            flex-grow: 1;
+        }
+        .task input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li class="task">
+                <label><input type="checkbox"> Task 1</label>
+            </li>
+            <li class="task">
+                <label><input type="checkbox"> Task 2</label>
+            </li>
+            <li class="task">
+                <label><input type="checkbox"> Task 3</label>
+            </li>
+            <li class="task">
+                <label><input type="checkbox"> Task 4</label>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
